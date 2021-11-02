@@ -23,13 +23,13 @@ In the screenshots the margins used is 3px on every side.
 ### XFCE Panel && keybindings
 Copy the panel config file to its default destination
 
-`cp ~/.themes/haze-you/xfce-perchannel-xml/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/`
+`cp -i ~/.themes/haze-you/xfce-perchannel-xml/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/`
 
 The panel uses a custom background, currently the background provided fits a screen with 1366px width, if you want the panel to look the same on a bigger screen you will need to edit/create a custom background to fit such screen. To set the background go to the panel settings, chose panel 1 > in the appearance tab set Style to Background image and chose the appropriate file, the bg image should be in `~/.themes/haze-you/panel-background/`
 
 Copy the keyboard shortcuts file if you want the same keybindings as well to `~/.config/xfce4/xfconf/xfce-perchannel-xml/`
 
-`cp ~/.themes/haze-you/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/`
+`cp -i ~/.themes/haze-you/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/`
 
 Some of the Keybindings are:
 
@@ -63,13 +63,13 @@ Bottom|J|K|L
 ### Wallpapers
 The main wallpaper was made using [this art as source](https://twitter.com/AlainPLD/status/1453263612835942406/photo/1) by @AlainPLD.
 ### Software shown and additional themes
-	Firefox theme [sakura-dark-theme](https://addons.mozilla.org/en-US/firefox/addon/sakura-dark-theme/)
+Firefox theme [**sakura-dark-theme**](https://addons.mozilla.org/en-US/firefox/addon/sakura-dark-theme/)
 
-	Code theme [sakura-dark](https://marketplace.visualstudio.com/items?itemName=inatagan.sakura-dark-vscode-theme)
+Code theme [**sakura-dark**](https://marketplace.visualstudio.com/items?itemName=inatagan.sakura-dark-vscode-theme)
 
-	Icons theme [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) + [yaru folders](https://github.com/PapirusDevelopmentTeam/papirus-folders)
+Icons theme [**Papirus**](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) + [yaru folders](https://github.com/PapirusDevelopmentTeam/papirus-folders)
 
-	Mouse cursor theme [Oreo spark pink](https://github.com/varlesh/oreo-cursors)
+Mouse cursor theme [**Oreo spark pink**](https://github.com/varlesh/oreo-cursors)
 <!-- accent colors {
 	ff80cd
 	afddcb
