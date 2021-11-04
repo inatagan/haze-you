@@ -8,7 +8,7 @@ In the screenshots the margins used is 3px on every side.
 ### How to install?
 If you already don't have a theme folder in your home directory then create one:
 
-`mkdir `~/.themes`
+`mkdir ~/.themes`
 
 now clone this repo to your .themes directory:
 
