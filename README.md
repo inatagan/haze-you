@@ -20,13 +20,15 @@ In the screenshots the margins used is 3px on every side.
 ![Whisker menu](./screenshots/Screenshot_2021-11-01_21-02-17.png)
 #### System info
 ![System info](./screenshots/Screenshot_2021-11-01_22-08-21.png)
-### XFCE Panel && keybindings
+### XFCE Panel
 Copy the panel config file to its default destination
 
 `cp -i ~/.themes/haze-you/xfce-perchannel-xml/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/`
 
-The panel uses a custom background, currently the background provided fits a screen with 1366px width, if you want the panel to look the same on a bigger screen you will need to edit/create a custom background to fit such screen. To set the background go to the panel settings, chose panel 1 > in the appearance tab set Style to Background image and chose the appropriate file, the bg image should be in `~/.themes/haze-you/panel-background/`
+The panel uses a custom background, currently the background provided supports the following resolutions [4k, QHD, FHD and HD], if you want the panel to look the same on an unsupported screen you must edit/create a custom background to fit your screen resolution.
 
+To set the background go to the panel settings, chose panel **1** > in the appearance tab set Style to Background image and chose the appropriate file, the bg image should be in `~/.themes/haze-you/panel-background/`
+### My Keybindings
 Copy the keyboard shortcuts file if you want the same keybindings as well to `~/.config/xfce4/xfconf/xfce-perchannel-xml/`
 
 `cp -i ~/.themes/haze-you/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/`
@@ -37,7 +39,7 @@ Some of the Keybindings are:
 
 * `Super Key + F = File Manager(Thunar)`
 
-* `Super Key + T = Tearminal`
+* `Super Key + T = Terminal`
 
 * `Super Key + C = Code`
 
