@@ -6,7 +6,13 @@ This theme only handles the inner gaps between windows, to add gaps to the outer
 	settings manager > Workspaces > Margins
 In the screenshots the margins used is 3px on every side.
 ### How to install?
-`git clone https://github.com/inatagan/haze-you.git ~/.themes`
+If you already don't have a theme folder in your home directory then create one:
+
+`mkdir `~/.themes`
+
+now clone this repo to your .themes directory:
+
+`git clone https://github.com/inatagan/haze-you.git ~/.themes/haze-you`
 ### Preview
 #### Desktop
 ![Desktop](./screenshots/Screenshot_2021-11-01_20-26-02.png)
