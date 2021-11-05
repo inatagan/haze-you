@@ -59,6 +59,14 @@ Some of the Keybindings are:
 
 * `Alt + F10 = Maximize current window`
 
+* `PrtSc = XFCE Screnshot without capturing mouse cursor`
+
+* `Shift + PrtSc = XFCE Screnshot with capturing mouse cursor`
+
+* `Ctrl + Up = Volume up(+5%)`
+
+* `Ctrl + Down = Volume down(-5%)`
+
 XFWM provide minimal tiling functions, that are arranged as a grid with the following keybindings:
 
 Super Key +
